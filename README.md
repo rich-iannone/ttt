@@ -118,8 +118,8 @@ at 10:20am` will be interpreted the same as just using `10:20am`. Here’s
 an example of this (written on `2018-03-26`):
 
 ``` r
-ttd(
-"t: Preparing presentation for Meetup;
+ttd("
+t: Preparing presentation for Meetup;
 s: yesterday at 10:30a; e: yesterday at 2:20p;
 l: presentation; p: Meetup-2018-03-28;
 i: Working on the introduction slides
@@ -140,8 +140,8 @@ When the draft entry looks satisfactory, re-run the same statement using
 console along with a message stating that the tracked task was added.
 
 ``` {r
-tt(
-"t: Preparing presentation for Meetup;
+tt("
+t: Preparing presentation for Meetup;
 s: yesterday at 10:30a; e: yesterday at 2:20p;
 l: presentation; p: Meetup-2018-03-28;
 i: Working on the introduction slides

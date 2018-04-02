@@ -99,8 +99,8 @@ Using times without dates assumes that the tracked time is for the present day. 
 We can also use keywords such as `now` to insert the present date/time. Events from days past can be logged using `yesterday at [time]` or `[n]d ago at [time]`. Thus, a construction like `yesterday at 3:00p` is useful for tracking tasks that began yesterday. Even something like `today at 10:20am` will be interpreted the same as just using `10:20am`. Here's an example of this (written on `2018-03-26`):
 
 ```r
-ttd(
-"t: Preparing presentation for Meetup;
+ttd("
+t: Preparing presentation for Meetup;
 s: yesterday at 10:30a; e: yesterday at 2:20p;
 l: presentation; p: Meetup-2018-03-28;
 i: Working on the introduction slides
@@ -121,8 +121,8 @@ i:  Working on the introduction slides
 When the draft entry looks satisfactory, re-run the same statement using `tt()` instead of `ttd()`. You'll receive the same print message in the console along with a message stating that the tracked task was added.
 
 ```{r
-tt(
-"t: Preparing presentation for Meetup;
+tt("
+t: Preparing presentation for Meetup;
 s: yesterday at 10:30a; e: yesterday at 2:20p;
 l: presentation; p: Meetup-2018-03-28;
 i: Working on the introduction slides
