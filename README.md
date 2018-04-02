@@ -7,8 +7,8 @@ status](https://travis-ci.org/rich-iannone/ttt.svg?branch=master)](https://travi
 # Time Tracking Tool
 
 Track the time taken to perform tasks with an input interface that is
-fast and easy to use. We can add useful information alongside the task–a
-label, a project identifier, info text–so that we have just enough
+fast and easy to use. We can add useful information alongside the task—a
+label, a project identifier, info text—so that we have just enough
 metadata. You can use a variety of shorthand input methods for quickly
 defining dates and times (e.g., `yesterday at 2pm`, `2d ago at 18:30`,
 etc.).
