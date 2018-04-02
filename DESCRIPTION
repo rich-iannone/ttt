@@ -1,0 +1,24 @@
+Package: ttt
+Version: 0.1
+Title: Time Tracking Tool for Tabularizing Timed Tasks 
+Description: Track the time taken to perform tasks with an input
+    interface that is fast and easy to use. You can use a variety
+    of shorthand methods for quickly defining dates and times so
+    that the task of tracking time doesn't take so much... time. 
+Authors@R: person("Richard", "Iannone", email = "riannone@me.com", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.0.1
+Imports: 
+    dplyr (>= 0.7.4),
+    magrittr (>= 1.5),
+    readr (>= 1.1.1),
+    rlang (>= 0.2.0),
+    purrr (>= 0.2.4),
+    stringr (>= 1.3.0)
+Suggests: 
+    testthat
+URL: https://github.com/rich-iannone/ttt
+BugReports: https://github.com/rich-iannone/ttt/issues
