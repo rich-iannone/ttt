@@ -29,8 +29,8 @@ truthfully) of time to tabularize those temporal *travails*.
 We can work with the following elements of a task:
 
   - `task (t)`: the task description
-  - `start (s)`: the starting date and time (in `YYYY-MM-DD HH:MM`)
-  - `end (e)`: the ending date and time (in `YYYY-MM-DD HH:MM`)
+  - `start (s)`: the starting date and time (`YYYY-MM-DD HH:MM`)
+  - `end (e)`: the ending date and time (`YYYY-MM-DD HH:MM`)
   - `label (l)`: an optional label to file the task under
   - `project (p)`: an optional project name/code for additional
     categorization
@@ -178,11 +178,11 @@ ISO-formatted dates), or, by using **dplyr**’s `filter()` function
 afterward.
 
 Records are written to disk (one CSV file per day, naming format is
-`[YYYY-MM-DD].csv`. Files are created and modified in the hidden `.ttt`
-folder of the user’s documents folder. The package will generate that
+`[YYYY-MM-DD].csv`). Files are created and modified in the hidden `.ttt`
+folder of the user’s Documents folder. The package will generate that
 folder when necessary.
 
-A few functions are provided to help with manage the files that *ttt*
+A few functions are provided to help with managing the files that *ttt*
 creates:
 
   - `where_ttt_dir()`: provides the file path of the `.ttt` dir
