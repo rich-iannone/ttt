@@ -3,6 +3,10 @@
 
 [![Travis build
 status](https://travis-ci.org/rich-iannone/ttt.svg?branch=master)](https://travis-ci.org/rich-iannone/ttt)
+[![Coverage
+status](https://codecov.io/gh/rich-iannone/ttt/branch/master/graph/badge.svg)](https://codecov.io/github/rich-iannone/ttt?branch=master)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/ttt)](https://cran.r-project.org/package=ttt)
 
 # Time Tracking Tool
 
