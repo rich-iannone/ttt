@@ -25,3 +25,14 @@ from the present day can be specified to filter
 the table returned. Otherwise, all tracked time
 records are provided.
 }
+\examples{
+\dontrun{
+# Show all tracked tasks as a tibble
+get_tt()
+  task                    s_d        s_t   e_d    e_t   lbl   proj   info
+  <chr>                   <chr>      <chr> <chr>  <chr> <chr> <chr>  <chr>
+1 Description of the task 2018-05-24 11:30 2018-… 12:00 label proje… Any a…
+2 Description of the task 2018-05-24 12:00 2018-… 12:30 label proje… Any a…
+3 Description of the task 2018-05-24 12:30 2018-… 13:00 label proje… Any a…
+}
+}

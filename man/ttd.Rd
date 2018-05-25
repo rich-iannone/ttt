@@ -31,3 +31,17 @@ actually committing the task. This is useful for
 practicing the shorthand of entering a tracked task
 since the tracked-time event is echoed to the console.
 }
+\examples{
+# Draft a tracked task using `ttd()`; it won't
+# be committed to the ttt_dir but information
+# on the tracked task will be echoed back--this
+# is useful for ensuring that the information
+# is correct before using `tt()`
+ttd(
+  task = "Description of the task",
+  s = "2018-05-24 11:30",
+  e = "2018-05-24 12:00",
+  lbl = "label",
+  proj = "project_name",
+  info = "Any additional information")
+}
