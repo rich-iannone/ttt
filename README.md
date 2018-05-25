@@ -143,7 +143,7 @@ When the draft entry looks satisfactory, re-run the same statement using
 `tt()` instead of `ttd()`. You’ll receive the same print message in the
 console along with a message stating that the tracked task was added.
 
-``` {r
+``` r
 tt("
 t: Preparing presentation for Meetup;
 s: yesterday at 10:30a; e: yesterday at 2:20p;
