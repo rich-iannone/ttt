@@ -13,6 +13,27 @@
 #' @param info information pertaining to the event.
 #' @param write a logical value indicating whether the
 #' tracked task entry should be written to disk.
+#' @examples
+#' \dontrun{
+#' # Add a tracked task using `tt()`; it will
+#' # be committed to the ttt_dir; information
+#' # on the tracked task will be echoed back
+#' tt(
+#'   task = "Description of the task",
+#'   s = "2018-05-24 12:30",
+#'   e = "2018-05-24 13:00",
+#'   lbl = "label",
+#'   proj = "project_name",
+#'   info = "Any additional information")
+#' #> tracked task entry
+#' #> ------------------
+#' #> t:  Description of the task
+#' #> s:  2018-05-24 11:30
+#' #> e:  2018-05-24 12:00
+#' #> l:  label
+#' #> p:  project_name
+#' #> i:  Any additional information
+#' }
 #' @importFrom stringr str_squish str_detect str_split str_remove
 #' @importFrom stringr str_extract str_extract_all str_replace
 #' @importFrom dplyr tibble bind_rows arrange

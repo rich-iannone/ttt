@@ -40,4 +40,3 @@ delete_all_ttt_files <- function() {
       "All ", file_count, " CSV file(s) in `",
       where_ttt_dir(), "` have been removed"))
 }
-
