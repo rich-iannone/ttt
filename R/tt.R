@@ -33,6 +33,24 @@
 #' #> l:  label
 #' #> p:  project_name
 #' #> i:  Any additional information
+#'
+#' # We can also use the shorthand notation
+#' tt("
+#' t: Description of the task;
+#' s: 2018-05-24 11:30;
+#' e: 2018-05-24 12:00;
+#' l: label;
+#' p: project_name;
+#' i: Any additional information
+#' ")
+#' #> tracked task entry
+#' #> ------------------
+#' #> t:  Description of the task
+#' #> s:  2018-05-24 11:30
+#' #> e:  2018-05-24 12:00
+#' #> l:  label
+#' #> p:  project_name
+#' #> i:  Any additional information
 #' }
 #' @importFrom stringr str_squish str_detect str_split str_remove
 #' @importFrom stringr str_extract str_extract_all str_replace
