@@ -44,4 +44,14 @@ ttd(
   lbl = "label",
   proj = "project_name",
   info = "Any additional information")
+
+# We can also use the shorthand notation
+ttd("
+t: Description of the task;
+s: 2018-05-24 11:30;
+e: 2018-05-24 12:00;
+l: label;
+p: project_name;
+i: Any additional information
+")
 }
